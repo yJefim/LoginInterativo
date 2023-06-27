@@ -1,0 +1,88 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #555;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    background-image: radial-gradient(#67f2d1 25%, #043b5c 95%);
+}
+
+h1{
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    gap: 20px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 90%);
+}
+
+form img{
+    width: 100px;
+}
+
+form input{
+    padding: 5px 0px;
+    border: none;
+    outline: none;
+}
+
+.div-input-text{
+    display: flex;
+    position: relative;
+    border-radius: 5px;
+    border: 1px solid #777;
+    padding: 15px;
+    gap: 5px;
+    width: 300px;
+    caret-color: #329092;
+}
+.div-input-text img{
+    width: 16px;
+}
+#user, #pass{
+    background-color: transparent;
+    width: 90%;
+}
+
+#placeholder-user, #placeholder-pass{
+    position: absolute;
+    top: 15px;
+    left: 50px;
+    padding: 5px;
+    transition: all 0.8s;
+}
+.checkbox{
+    display: inline-flex;
+    width: 100%;
+}
+.checkbox p{
+    margin-left: 10px;
+}
+
+input[type="button"]{
+    padding: 10px;
+    background-color: #043b5c;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+input[type="button"]:hover{
+    background-color: #329092;
+}
